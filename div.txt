@@ -1,0 +1,6 @@
+public int div(int a, int b) throws ArithmeticExeption{
+    if (b == 0) {
+       throw new ArithmeticExeption;
+}
+	return a/b;
+}
