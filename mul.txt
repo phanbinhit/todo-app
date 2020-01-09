@@ -1,3 +1,6 @@
-public int mul(int a, int b) {
+public int mul(int a, int b) throws Exception{
+    if (a*b > Integer.MAX) {
+        throw new Exception("Result over Integer.MAX value")
+    }
 	return a*b;
 }
